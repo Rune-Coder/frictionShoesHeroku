@@ -2,6 +2,9 @@
   "name": "server",
   "version": "16.13.0",
   "description": "",
+  "engines": {
+    "node": "16.x"
+  },
   "type": "module",
   "main": "frictionServer.js",
   "scripts": {
@@ -32,7 +35,6 @@
   },
   "devDependencies": {
     "concurrently": "^7.4.0",
-    "node": "^16.13.0",
     "nodemon": "^2.0.20"
   }
 }
