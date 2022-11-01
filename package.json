@@ -1,7 +1,7 @@
 {
   "name": "server",
-  "version": "16.13.0",
-  "description": "",
+  "version": "1.0.0",
+  "description": "react app",
   "engines": {
     "node": "16.x"
   },
