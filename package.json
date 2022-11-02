@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "react app",
   "engines": {
-    "node": "16.13.0"
+    "node": "16.13.0",
+    "npm": "8.1.2"
   },
   "type": "module",
   "main": "frictionServer.js",
