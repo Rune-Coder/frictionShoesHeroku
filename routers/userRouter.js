@@ -1,15 +1,15 @@
-import express from 'express';
-import asyncHandler from 'express-async-handler';
-import bcrypt from 'bcryptjs';
-import User from '../models/userModel.js';
-import generateToken from '../util/generateToken.js';
-import protect from '../middleware/auth.js';
-import UserHistory from '../models/userHistoryModel.js';
-import fetch from "node-fetch";
-import  uuid  from 'uuid4';
-import nodemailer from 'nodemailer';
-import {username, pass} from '../frictionData/cred.js';
-import otpGenerator from 'otp-generator';
+const express = require('express');
+const asyncHandler = require('express-async-handler');
+const bcrypt = require('bcrypt');
+const User = require('../models/userModel.js');
+const generateToken = require('../util/generateToken.js');
+const protect = require('../middleware/auth.js');
+const UserHistory = require('../models/userHistoryModel.js');
+const fetch = require('node-fetch');
+const uuid = require('uuid4');
+const nodemailer = require('nodemailer');
+const {username, pass} = require('../frictionData/cred.js');
+const otpGenerator = require('otp-generator');
 
 const userRoute = express.Router();
 

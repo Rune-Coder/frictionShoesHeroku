@@ -1,4 +1,4 @@
-import Razorpay from "razorpay";
+const Razorpay = require('razorpay');
 
 //payment instance
 export const instance = new Razorpay({

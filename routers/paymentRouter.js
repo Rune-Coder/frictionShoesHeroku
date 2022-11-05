@@ -1,6 +1,6 @@
-import express from 'express';
-import crypto from "crypto";
-import {instance} from '../util/paymentInstance.js';
+const express = require('express');
+const crypto = require('crypto');
+const {instance} = require('../util/paymentInstance.js');
 
 const paymentRoute = express.Router();
 

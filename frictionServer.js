@@ -1,11 +1,11 @@
-import express from "express";
-import dotenv from "dotenv";
-import connectDatabase from "./config/MongoDb.js";
-import importData from "./dataImport.js";
-import productRoute from "./routers/productRouter.js";
-import { errorHandler, notFound } from "./middleware/error.js";
-import userRoute from "./routers/userRouter.js";
-import paymentRoute from "./routers/paymentRouter.js";
+const express = require('express');
+const dotenv = require('dotenv');
+const connectDatabase = require('./config/MongoDb.js');
+const importData = require('./dataImport.js');
+const productRoute = require('./routers/productRouter.js');
+const { errorHandler, notFound } = require('./middleware/error.js');
+const userRoute = require('./routers/userRouter.js');
+const paymentRoute = require('./routers/paymentRouter.js');
 
 
 dotenv.config();

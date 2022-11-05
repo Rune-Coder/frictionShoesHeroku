@@ -1,9 +1,9 @@
-import express from 'express';
-import User from './models/userModel.js';
-import users from './frictionData/users.js';
-import Product from './models/productModel.js';
-import products from './frictionData/products.js';
-import asyncHandler from 'express-async-handler';
+const express = require('express');
+const User = require('./models/userModel.js');
+const users = require('./frictionData/users.js');
+const Product = require('./models/productModel.js');
+const products = require('./frictionData/products.js');
+const asyncHandler = require('express-async-handler');
 
 const importData = express.Router();
 
