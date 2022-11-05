@@ -6,7 +6,6 @@ import productRoute from "./routers/productRouter.js";
 import { errorHandler, notFound } from "./middleware/error.js";
 import userRoute from "./routers/userRouter.js";
 import paymentRoute from "./routers/paymentRouter.js";
-import path from "path";
 
 
 dotenv.config();
@@ -37,6 +36,7 @@ const PORT = process.env.PORT || 5000;
 //step 3 heroku
 
 if(process.env.NODE_ENV === "production"){
+    const path = require('path');
     app.use(express.static(path.join('client/build')));
     app.get("*", (req, res) => {
         res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
