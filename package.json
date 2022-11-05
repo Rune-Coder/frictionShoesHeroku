@@ -6,7 +6,6 @@
     "node": "16.13.0",
     "npm": "8.1.2"
   },
-  "type": "module",
   "main": "frictionServer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
