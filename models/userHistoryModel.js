@@ -37,4 +37,4 @@ const userHistorySchema = mongoose.Schema({
 
 const UserHistory = mongoose.model("UserHistory", userHistorySchema);
 
-export default UserHistory;
+module.exports = UserHistory;

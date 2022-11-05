@@ -234,5 +234,5 @@ userRoute.post("/send-otp", async (req, res) => {
 });
 
 
-export default userRoute;
+module.exports = userRoute;
 

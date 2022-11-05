@@ -23,4 +23,4 @@ importData.post("/products",
     })
 );
 
-export default importData;
+module.exports =  importData;

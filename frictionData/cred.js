@@ -1,4 +1,5 @@
 const username = 'creationamyah@gmail.com';
 const pass = 'seafrvpsohrtcvdk';
 
-export {username, pass};
+module.exports.username = username;
+module.exports.pass = pass;

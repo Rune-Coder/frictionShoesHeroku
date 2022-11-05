@@ -66,4 +66,4 @@ productRoute.get("/category/:key",
     })
 );
 
-export default productRoute;
+module.exports = productRoute;

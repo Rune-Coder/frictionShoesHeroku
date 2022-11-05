@@ -42,4 +42,4 @@ paymentRoute.get("/key",
     }
 );
 
-export default paymentRoute;
+module.exports = paymentRoute;
